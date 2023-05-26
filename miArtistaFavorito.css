@@ -1,0 +1,136 @@
+* {background-color: black;color:#ccc   }
+
+.containerHeader, .containerReview, .containerFooter{
+    display:flex;
+    align-items: center;
+    max-width: 100%;
+    background-color: black;
+}
+
+
+
+/*Header - Banner-------------------------------------------------------------------------------------------------------------------*/
+
+.containerHeader{
+    height: 310px; 
+    border-top:  3px solid#ccc;
+    border-bottom: 3px solid#ccc;
+}
+
+.itemHeader, img{padding: 0 40px; }
+
+.containerHeader .itemHeader{   
+    width: 70%;
+    padding: 0 20px; 
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.pBanner{ font-size: 2rem; font-style: italic;}
+
+
+
+/*Review--------------------------------------------------------------------------------------------------------------------------*/
+
+.containerReview{ height: auto; padding: 100px 80px;border-bottom: 3px solid#ccc; }
+
+.cajaBordeReview{ display: flex; border-left: 10px solid brown; border-right:10px solid brown; }
+
+.containerReview .itemReview{  
+    font-family: 'Handlee', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Sora', sans-serif;    
+    padding-left: 100px;
+    text-align: justify;
+    font-size: 18pt;
+    height: auto;
+    padding-right: 80px;
+}
+
+.containerReview img{ width: auto; height: auto; }
+
+
+
+/*Discography----------------------------------------------------------------------------------------------------------------------*/
+
+.containerDiscography{
+    height: auto; padding: 100px; border-bottom: 3px solid#ccc; }
+
+.titleDiscography{
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+    padding-bottom: 100px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.gridDiscography{   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*padding: 100px 30px;*/
+    border-top: 5px solid#1ed760;    
+    border-bottom: 5px solid#1ed760; 
+}
+
+.grid-item {padding:10px;text-align: center; max-width: 90%;font-family: Vegur, 'PT Sans', Verdana, sans-serif;}
+
+.grid-item img{max-width: 80%;}
+
+
+
+/*Spotify-----------------------------------------------------------------------------------------------------------------------*/
+
+.containerSpotify{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 40px;
+}
+
+.itemSpotify{   
+    width: 40%;
+}
+
+.itemSpotify1,.itemSpotify2,.itemSpotify3,.itemSpotify4{
+    display: grid;
+    padding: 0px 0px; 
+    font-size:medium;
+    align-items: center;
+    padding: 50px;   
+}
+
+.itemSpotify1,.itemSpotify3{
+    font-family: 'Handlee', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Sora', sans-serif;
+    padding-left: 50px;
+    padding-right: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.itemSpotify1{
+    border-bottom: 3px solid#ccc; 
+}
+
+
+
+/*Footer-----------------------------------------------------------------------------------------------------------------------*/
+
+.containerFooter{
+    height: auto; 
+    padding: 80px 0px;
+    border-bottom: 3px solid#ccc; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; 
+    font-style: italic;
+    font-family: 'Shadows Into Light', cursive;
+    border-top: 3px solid#ccc;
+    border-bottom: 3px solid#ccc;
+}
+
+.containerFooter img{
+    padding: 0;
+}
